@@ -1,0 +1,26 @@
+[
+    {
+        "emptyError" : "Name is Mandatory",
+        "patternError" : "Name should not include numbers or special characters",
+        "value":null,
+        "exp":"^[a-zA-Z\\s]*$",
+        "displayID":"name_err",
+        "isValidated":false
+    },
+    {
+        "emptyError" : "Email is Mandatory",
+        "patternError" : "Characters followed by an @ sign, followed by more characters, and then a '.'",
+        "value":null,
+        "exp":"([a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$)",
+        "displayID":"email_err",
+        "isValidated":false
+    },
+    {
+        "emptyError" : "Password is Mandatory",
+        "patternError" : "Password that must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter",
+        "value":null,
+        "exp":"(?=.*d)(?=.*[a-z])(?=.*[A-Z])",
+        "displayID":"password_err",
+        "isValidated":false
+    }
+]
